@@ -1,0 +1,27 @@
+Sebelumnya saya memohon maaf kepada 
+bapak pandu atas kemepetan saya 
+dalam mengumpulkan tugas file css yang
+saya gunakan mengalami musibah hilang
+oleh karena itu saya harus mengulang
+dari awal, Terima kasih.
+=======================================
+=======================================
+Nama	 : Adya Abdu Azizul Hakim
+Nim	 : G.211.21.0077
+Matkul : Pemrograman Web
+=======================================
+=======================================
+Project Website: 
+*Rebuild Eventy.id
+=======================================
+Website sudah Responsive - Mobile Mode:
+
+- Download Extension Chrome
+https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=en-US
+
+- klik kanan pada Website lalu Active
+  the mobile view
+========================================
+========================================
+
+

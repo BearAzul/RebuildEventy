@@ -1,0 +1,460 @@
+* {
+   font-family: "Inter", sans-serif;
+   box-sizing: border-box;
+}
+
+.navbar-toggler {
+   border: none;
+   outline: none;
+}
+
+/* .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+   ;
+} */
+
+.width {
+   width: 350px;
+   height: auto !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.container {
+   position: relative;
+   z-index: 9;
+}
+
+.dekor {
+   position: absolute;
+   width: 250px;
+}
+
+.bulat {
+   width: 700px;
+   height: 700px;
+   background: transparent;
+   border-radius: 100%;
+   position: absolute;
+   border: 150px solid #45c0fb;
+}
+
+.bg {
+   background: #28b7fb;
+}
+
+.nav-link {
+   color: #fff;
+}
+
+.tron {
+   width: 800px;
+}
+
+.font {
+   color: #074461;
+}
+
+.card {
+   border: none;
+}
+
+.line {
+   position: absolute;
+   z-index: -1;
+   width: 2px;
+   height: 63%;
+   background: #f9cd12;
+   left: 39px;
+   top: 70px;
+}
+
+.titik {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.titik .dot {
+   width: 10px;
+   height: 10px;
+   background: #ccc;
+   border-radius: 100%;
+}
+
+.titik .active {
+   background: #28b7fb;
+}
+
+.fs {
+   font-size: 14px;
+}
+
+#footer,
+#testimoni,
+#tipe,
+#virtual,
+#home,
+.navbar {
+   background: #28b7fb !important;
+}
+
+footer,
+section,
+header {
+   width: 100%;
+   height: auto;
+   position: relative;
+   overflow: hidden;
+}
+
+
+/* home */
+#home {
+   height: 100vh;
+}
+
+#home .bulat {
+   bottom: -300px;
+   left: -300px;
+}
+
+/* about */
+#about .dekor {
+   top: 0;
+   left: 0;
+}
+
+/* virtual */
+#virtual .dekor {
+   top: 0;
+   right: 0;
+}
+
+#virtual .bulat {
+   right: -250px;
+   bottom: -250px;
+}
+
+#virtual .card {
+   height: 500px;
+}
+
+#virtual .card-body p {
+   text-align: justify;
+}
+
+/* solusi */
+#solusi .dekor {
+   top: 0;
+   left: 0;
+}
+
+#solusi .wrapping {
+   display: flex;
+   flex-direction: row;
+   height: 190px;
+}
+
+/* tipe */
+#tipe .dekor {
+   bottom: 0;
+   right: 0;
+}
+
+#tipe .bulat {
+   top: -350px;
+   right: -350px;
+}
+
+/* kenapa */
+#kenapa .two {
+   bottom: 0;
+   right: 0;
+}
+
+#kenapa .why {
+   width: 100%;
+}
+
+#kenapa ul li p {
+   font-weight: 500;
+}
+
+/* testimoni */
+#testimoni .bulat {
+   left: -350px;
+   bottom: -350px;
+}
+
+/* yuk bergabung */
+#bergabung .image {
+   width: 97%;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+#bergabung .image img {
+   width: 120px;
+}
+
+#bergabung #hide {
+   display: none;
+}
+
+#bergabung #show {
+   cursor: pointer;
+}
+
+/* footer */
+footer .d-flex {
+   justify-content: space-around;
+   width: 350px;
+   margin: auto;
+   align-items: center;
+}
+
+@media (max-width: 500px) {
+   .tron {
+      width: 100% !important;
+   }
+
+   .dekor {
+      width: 100px !important;
+   }
+
+   .line {
+      height: 67%;
+   }
+
+   .titik {
+      flex-direction: row;
+      top: 97%;
+      right: 38%;
+   }
+
+   .fs {
+      font-size: 12px;
+   }
+
+   #home {
+      height: auto;
+   }
+
+   #home .bulat {
+      left: 100px;
+      top: -300px;
+   }
+
+   #virtual .bulat {
+      width: 350px;
+      height: 350px;
+      border: 80px solid #45c0fb;
+      top: -150px;
+      left: -150px;
+   }
+
+   #tipe .bulat {
+      width: 450px;
+      height: 450px;
+      right: -200px;
+      top: -200px;
+      border: 100px solid #45c0fb;
+   }
+
+   #section {
+      width: auto;
+      margin-top: 20px !important;
+   }
+
+   #home {
+      width: 100% !important;
+   }
+   #home .row .col:nth-child(2){
+      display: flex;
+      justify-content: center;
+   }
+
+   #home .container {
+      padding: 0;
+      margin: 0;
+   }
+
+   #home .image img {
+      width: 330px;
+      height: 350px;
+   }
+
+   #about .w-75 {
+      width: 100% !important;
+   }
+
+   #about img {
+      width: 150px;
+   }
+
+   #about .col {
+      margin-bottom: 30px !important;
+   }
+
+   #virtual .container {
+      margin: 0 !important;
+      text-align: center;
+   }
+
+   #virtual p.w-75 {
+      width: 100% !important;
+   }
+
+
+   #virtual .container h4 {
+      font-size: 22px;
+   }
+
+   #virtual .row {
+      flex-direction: column;
+      width: 100% !important;
+   }
+
+   #virtual .container .row p {
+      font-size: 18px;
+   }
+
+   #solusi h1 {
+      font-size: 30px;
+      padding: 0 10px;
+   }
+
+   #solusi .button {
+      width: 350px !important;
+   }
+
+   #solusi .button .col {
+      font-size: 15px;
+   }
+
+   #solusi .solusi {
+      width: 300px !important;
+   }
+
+   #solusi .wrapping {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+   }
+
+   #solusi .left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #tipe .dekor {
+      top: 0;
+      height: 100px;
+   }
+
+   #tipe .row {
+      margin-top: 50px !important;
+      display: flex;
+      justify-content: center;
+   }
+
+   #tipe .col {
+      text-align: center;
+      margin: auto;
+   }
+
+   #tipe .width {
+      width: 150px;
+      height: 150px;
+   }
+
+   #tipe img {
+      width: 50px;
+      height: 50px;
+   }
+
+   #tipe .d-flex {
+      justify-content: center;
+   }
+
+   #tipe .mb-3 {
+      font-size: 16px;
+   }
+
+   #kenapa .row {
+      flex-direction: column;
+      width: 100% !important;
+   }
+
+   #kenapa .width img {
+      width: 300px;
+   }
+
+   #kenapa .my-auto {
+      margin-top: auto !important;
+   }
+
+   #kenapa ul li p {
+      font-size: 19px !important;
+      font-weight: 600;
+   }
+
+   #testimoni .bulat {
+      width: 500px;
+      height: 500px;
+      border: 100px solid #45c0fb;
+      left: -230px;
+      bottom: -230px;
+   }
+
+   #testimoni .test {
+      width: 100% !important;
+   }
+
+   #testimoni img {
+      width: 100px !important;
+   }
+
+   #testimoni .m-auto {
+      margin: 30px 10px !important;
+   }
+
+   #testimoni .d-flex {
+      text-align: center;
+      flex-direction: column;
+      padding: 40px 0 !important;
+   }
+
+   #bergabung .row {
+      display: flex;
+      justify-content: center;
+   }
+
+   #bergabung .col {
+      margin-bottom: 15px !important;
+   }
+
+   /* #bergabung .image {
+      width: 170px;
+      height: 100px;
+   } */
+
+   #bergabung .image img {
+      width: 80px;
+   }
+
+   footer .d-flex {
+      width: 340px;
+   }
+}
